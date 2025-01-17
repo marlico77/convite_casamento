@@ -1,32 +1,49 @@
 * {
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
-  }
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
 
-  .fundo {
-    width: 100%;
-    position: absolute; /* Posiciona a imagem de fundo absolutamente */
-    top: 0;
-    left: 0; 
-  }
+}
 
+.fundo {
+  width: 100%;
+  position: absolute;
+  /* Posiciona a imagem de fundo absolutamente */
+  top: 0;
+  left: 0;
 
-  .icones {
-    margin-top: 152%;
-    margin-left: 30%;
-  }
+}
 
 
-  .endereco {
-    width:13%;
-    position: relative; /* Posiciona a imagem do endereço relativamente */
-    z-index: 1; /* Define o nível de empilhamento da imagem do endereço */
-  }
+.icones {
+  margin-top: 152%;
+  margin-left: 30%;
 
-  /* .presenca {
+}
+
+
+.endereco {
+
+  width: 13%;
+  position: relative;
+  /* Posiciona a imagem do endereço relativamente */
+  z-index: 1;
+
+
+  /* Define o nível de empilhamento da imagem do endereço */
+
+}
+
+
+.presenca {
+  width: 13%;
+  margin-left: 7%;
+  position: relative;
+  z-index: 1;
+}
+
+/* .presenca {
     width: 100px;
     position: relative;
     z-index: 2; 
   } */
-
